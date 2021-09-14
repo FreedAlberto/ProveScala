@@ -12,3 +12,7 @@ libraryDependencies ++= Seq(
   "io.circe" %% "circe-parser",
   "io.circe" %% "circe-optics"
 ).map(_ % circeVersion)
+
+libraryDependencies += "org.sangria-graphql" %% "sangria" % "2.0.0"
+
+libraryDependencies += "org.sangria-graphql" %% "sangria-circe" % "1.3.0"
